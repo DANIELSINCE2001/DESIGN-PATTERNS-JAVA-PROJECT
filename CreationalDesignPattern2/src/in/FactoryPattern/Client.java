@@ -1,6 +1,6 @@
 package in.FactoryPattern;
 
-//Client.java
+
 public class Client
 {
  public static void main(String[] args)
