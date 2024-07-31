@@ -7,15 +7,15 @@ public class Client
  {
      Newsletter newsletter = new Newsletter();
 
-     Observer john = new Subscriber("Daniel");
-     Observer jane = new Subscriber("Unnath");
+     Observer daniel = new Subscriber("Daniel");
+     Observer unnath = new Subscriber("Unnath");
 
-     newsletter.addObserver(john);
-     newsletter.addObserver(jane);
+     newsletter.addObserver(daniel);
+     newsletter.addObserver(unnath);
 
      newsletter.publishNewArticle("Observer Pattern in Java");
 
-     newsletter.removeObserver(john);
+     newsletter.removeObserver(daniel);
 
      newsletter.publishNewArticle("More Design Patterns");
  }
