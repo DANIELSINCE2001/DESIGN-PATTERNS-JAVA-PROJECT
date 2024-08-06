@@ -1,3 +1,9 @@
+IDE used: Eclipse.
+
+Java Version : JDK 21.0.
+
+
+
 Design Patterns Exercise
 This project demonstrates various design patterns implemented in Java. It covers behavioral, creational, and structural design patterns, each represented through real-world scenarios. The design patterns showcased are:
 
